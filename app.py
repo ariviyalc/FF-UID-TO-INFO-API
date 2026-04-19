@@ -46,11 +46,11 @@ async def json_to_proto(json_data: str, proto_message: Message) -> bytes:
 def get_account_credentials(region: str) -> str:
     r = region.upper()
     if r == "IND":
-        return "uid=ENTER_YOU_GUEST_ACCOUNT_UID&password=ENTER_YOUR_GUEST_ACCOUNT_PASSWORD"
+        return "uid=4397822395&password=URxFF_7T9LZ_Ashish_Yadav____TG_Unknown_Reason_LT2EO"
     elif r in {"BR", "US", "SAC", "NA"}:
-        return "uid=ENTER_YOU_GUEST_ACCOUNT_UID&password=ENTER_YOUR_GUEST_ACCOUNT_PASSWORD"
+        return "uid=4397822395&password=URxFF_7T9LZ_Ashish_Yadav____TG_Unknown_Reason_LT2EO"
     else:
-        return "uid=ENTER_YOU_GUEST_ACCOUNT_UID&password=ENTER_YOUR_GUEST_ACCOUNT_PASSWORD"
+        return "uid=4397822395&password=URxFF_7T9LZ_Ashish_Yadav____TG_Unknown_Reason_LT2EO"
 
 async def get_access_token(account: str):
     url = "https://ffmconnect.live.gop.garenanow.com/oauth/guest/token/grant"
